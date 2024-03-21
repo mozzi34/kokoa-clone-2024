@@ -1,0 +1,53 @@
+.screen_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px 20px;
+    opacity: 90%;
+    margin-bottom: 15px;
+   
+}
+
+.screen_header__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.screen_header__icon span {
+    margin-left: 25px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.screen_header__badge{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    right: -6px;
+    bottom: 17px;
+    position: absolute;
+    
+
+ /* background-color: tomato;
+ width: 5px;
+ height: 5px;
+ border-radius: 2.5px;
+ position: absolute;
+right: -6px;
+top: -7px;  */
+}
+
+@keyframes rotateCog {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateX(36-deg'angle');
+    }
+
+}
+
+.screen_header__icon .fa-music {
+ animation: rotateCog 3s ease-in-out;
+}
