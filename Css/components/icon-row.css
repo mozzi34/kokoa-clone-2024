@@ -1,0 +1,32 @@
+
+
+.icon-row {
+    display: flex;
+    margin:0 -20px;
+    flex-wrap: wrap;
+    width: 113%;
+
+}
+
+.icon-row__icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding-bottom: 20px;
+   
+}
+
+.icon-row__icon i {
+    font-size: 32px;
+}
+
+.icon-row__icon span{
+    margin-top: 18px;
+}
+
+
